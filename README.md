@@ -102,7 +102,7 @@ Para replicar el entorno de trabajo:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/TuUsuario/analisis-lealtad-aerolinea.git](https://github.com/TuUsuario/analisis-lealtad-aerolinea.git)
+    git clone https://github.com/Adalab/bda-modulo-3-evaluacion-final-TamDb22.git
     ```
 2.  **Instalar dependencias:**
     ```bash
