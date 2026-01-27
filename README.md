@@ -13,10 +13,10 @@
 ## Índice de Contenidos
 
 * [Resumen y Alcance del Proyecto](#resumen-y-alcance-del-proyecto)
-* [Competencias Adquiridas (Objetivos)](#competencias-adquiridas-objetivos)
-* [Análisis de Datos (Fase 1: Exploración y Limpieza)](#análisis-de-datos-fase-1-exploración-y-limpieza)
-* [Análisis Estadístico y Visualización (Fases 2 y 3)](#análisis-estadístico-y-visualización-fases-2-y-3)
-* [Evaluación de Diferencias (Fase 4)](#evaluación-de-diferencias-fase-4)
+* [Competencias Adquiridas](#competencias-adquiridas)
+* [Análisis de Datos Exploración y Limpieza](#análisis-de-datos-exploración-y-limpieza)
+* [Análisis Estadístico y Visualización](#análisis-estadístico-y-visualización)
+* [Evaluación de Diferencias](#evaluación-de-diferencias)
 * [Herramientas](#herramientas)
 * [Ejecución](#ejecucion)
 * [Autoría](#autoría)
@@ -29,7 +29,7 @@ Este repositorio contiene la resolución de la **Evaluación Final del Módulo 3
 
 El proyecto se centra en el comportamiento de los clientes dentro de un programa de fidelización de una aerolínea. El ciclo de trabajo incluye la consolidación de fuentes de datos mediante **Pandas**, la limpieza de valores nulos, el análisis estadístico descriptivo y la creación de visualizaciones para comunicar hallazgos de negocio.
 
-## Competencias Adquiridas Objetivos
+## Competencias Adquiridas 
 
 * Consolidar datasets mediante la técnica de **Merge** en Pandas.
 * Implementar estrategias de limpieza y **tratamiento de nulos** (imputación por mediana).
@@ -38,11 +38,11 @@ El proyecto se centra en el comportamiento de los clientes dentro de un programa
 * Realizar comparaciones estadísticas entre grupos (Educación vs. Reservas).
 * Traducir métricas técnicas a interpretaciones de negocio en lenguaje natural.
 
-## Análisis de datos fase 1 exploración y limpieza
+## Análisis de datos exploración y limpieza
 
 Se trabajó con los archivos `Customer Flight Activity.csv` y `Customer Loyalty History.csv` siguiendo este flujo:
 
-### 🔹 Fase 1 — Unión y Transformación de datos
+### Unión y Transformación de datos
 
 * Se realizó un **Left Merge** utilizando la columna común `Loyalty Number`.
 * Se analizaron 405,624 registros de actividad mensual cruzados con perfiles de clientes únicos.
@@ -54,7 +54,7 @@ Se trabajó con los archivos `Customer Flight Activity.csv` y `Customer Loyalty 
 * Se normalizaron las columnas de fecha y se verificó la integridad de los registros de cancelación.
 
 ## Análisis Estadístico y Visualización 
-### 🔹 Fases 2 y 3
+
 Se obtuvieron los siguientes *insights* fundamentales mediante el análisis descriptivo y visual:
 
 | Pregunta de Negocio | Gráfico Utilizado | Hallazgo Clave |
@@ -66,7 +66,6 @@ Se obtuvieron los siguientes *insights* fundamentales mediante el análisis desc
 | **Segmentación** | Clustered Bar | Análisis de distribución por género y estado civil de los clientes. |
 
 ## Evaluación de Diferencias
-### 🔹 Fase 4 
 
 Se evaluó si existían diferencias significativas en el número de vuelos reservados según el nivel educativo.
 
@@ -108,12 +107,12 @@ Para replicar el entorno de trabajo:
     ```bash
     pip install pandas numpy matplotlib seaborn
     ```
-3.  **Ejecutar el Notebook de Python** (`evaluacion_final.ipynb`):
+3.  **Ejecutar el Notebook de Python** (`evaluacion3_Tamara.ipynb`):
     * El script realiza la carga de los CSV, ejecuta la limpieza y genera los gráficos automáticamente.
     * Cada visualización incluye una interpretación detallada de los resultados.
 
 ---
-
+## Autoría
 Proyecto desarrollado por: 
 <p align="center">
   <a href="https://github.com/TuUsuarioDeGitHub">
